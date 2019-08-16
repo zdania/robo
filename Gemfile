@@ -37,7 +37,7 @@ gem 'figaro'
 gem 'hirb'
 gem 'ed25519', ">= 1.2"
 gem 'bcrypt_pbkdf', ">= 1.0"
-
+gem 'actionview', '~> 4.2', '>= 4.2.6'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
