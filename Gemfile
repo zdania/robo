@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.1.4'
+# gem 'rails', '5.1.4'
+gem 'rails', '~> 5.2', '>= 5.2.3'
 # Use postgresql as the database for Active Record
 # gem 'pg'
 gem 'pg', '~> 0.18.4'
@@ -29,6 +30,7 @@ gem 'kaminari'
 gem 'letter_opener'
 gem 'mini_magick'
 gem 'rails-i18n'
+# gem 'rails-i18n', '~> 4.0', '>= 4.0.8'
 gem 'ransack'
 gem 'simple_form'
 gem 'statesman'
@@ -42,6 +44,7 @@ gem "actionview", ">= 5.1.4"
 gem "devise"
 # gem "letter_opener", group: :development
 gem "devise-bootstrap-views"
+# gem 'devise-bootstrap-views', '~> 1.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
