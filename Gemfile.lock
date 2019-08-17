@@ -43,6 +43,7 @@ GEM
     airbrussh (1.3.2)
       sshkit (>= 1.6.1, != 1.7.0)
     arel (8.0.0)
+    bcrypt (3.1.13)
     bcrypt_pbkdf (1.0.1)
     bindex (0.8.1)
     builder (3.2.3)
@@ -89,6 +90,13 @@ GEM
     commonjs (0.2.7)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
+    devise (4.6.2)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 4.1.0, < 6.0)
+      responders
+      warden (~> 1.2.3)
+    devise-bootstrap-views (1.1.0)
     diff-lcs (1.3)
     ed25519 (1.2.4)
     erubi (1.8.0)
@@ -153,6 +161,7 @@ GEM
     nio4r (2.4.0)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
+    orm_adapter (0.5.0)
     pg (0.18.4)
     public_suffix (3.1.1)
     puma (3.12.1)
@@ -196,6 +205,9 @@ GEM
       ffi (~> 1.0)
     rdoc (4.3.0)
     regexp_parser (1.6.0)
+    responders (3.0.0)
+      actionpack (>= 5.0)
+      railties (>= 5.0)
     rspec-core (3.8.2)
       rspec-support (~> 3.8.0)
     rspec-expectations (3.8.4)
@@ -262,6 +274,8 @@ GEM
       thread_safe (~> 0.1)
     uglifier (4.1.20)
       execjs (>= 0.3.0, < 3)
+    warden (1.2.8)
+      rack (>= 2.0.6)
     web-console (3.7.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -289,6 +303,8 @@ DEPENDENCIES
   capybara-selenium
   carrierwave
   coffee-rails (~> 4.2.0)
+  devise
+  devise-bootstrap-views
   ed25519 (>= 1.2)
   faker
   figaro

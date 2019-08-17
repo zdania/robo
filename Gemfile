@@ -39,8 +39,9 @@ gem 'ed25519', ">= 1.2"
 gem 'bcrypt_pbkdf', ">= 1.0"
 # gem 'actionview', '~> 4.2', '>= 4.2.6'
 gem "actionview", ">= 5.1.4"
-
-
+gem "devise"
+# gem "letter_opener", group: :development
+gem "devise-bootstrap-views"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -55,13 +56,6 @@ gem 'capistrano-rails', '~> 1.1.0'
 gem 'capistrano-bundler'
 gem 'capistrano-passenger'
 gem 'capistrano-rbenv', "~> 2.1"
-
-
-# gem 'capistrano', '~> 3.10.1'
-# gem 'capistrano-rails', '~> 1.1.0'
-# gem 'capistrano-bundler'
-# gem 'capistrano-passenger'
-# gem 'capistrano-rbenv', "~> 2.1"
 
 
 
