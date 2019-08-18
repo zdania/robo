@@ -44,6 +44,7 @@ gem "actionview", ">= 5.1.4"
 gem "devise"
 # gem "letter_opener", group: :development
 gem "devise-bootstrap-views"
+gem "devise-i18n"
 # gem 'devise-bootstrap-views', '~> 1.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

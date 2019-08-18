@@ -27,11 +27,18 @@
             produktów za
             <%= number_to_currency(current_cart.line_items.map { |e| e.full_price }.sum) %>
           <% end %>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
+
+        </li>
+
+
+      </ul>
+      
+
+    </div>
+    <%= link_to 'Wyloguj się', destroy_user_session_path, method: :delete %>
+
+  </nav>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-2">
@@ -46,9 +53,14 @@
       </div>
       <div class="col-md-10">
         <%= bootstrap_flash %>
+
         <%= yield %>
+        <%= link_to 'Wyloguj się', destroy_user_session_path, method: :delete %>
+
       </div>
+
     </div>
+
   </div>
 
 </body>
