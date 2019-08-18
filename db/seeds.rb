@@ -14,7 +14,7 @@ print "Product "
     description: Faker::Hacker.say_something_smart,
     long_description: Faker::Lorem.paragraphs.join("\n\n"),
     category_id: category_ids.sample,
-    price: Faker::Number.decimal(3, 2)
+    price: Faker::Number.decimal
   product.remote_photo_url = Faker::Avatar.image(
     product.name.parameterize,
     "640x480",
